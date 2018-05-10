@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<style>
+     .uk-comment-header{
+            background: 0;
+            border: 0;
+            border-top:1px solid #ddd;
+        }
+</style>
+            <script>
+        //动态生成的评论框提交
+        function check_submit(form) {
+            alert(form);
+            var txt = $(form).find('textarea').val();
+            alert(txt);
+            var comment = `
+                    <li class="reply-child-item">
+                    <article class="uk-comment">
+                        <header class="uk-comment-header">
+                            <img class="uk-comment-avatar" src="https://sfault-avatar.b0.upaiyun.com/245/908/2459088887-5a6fbf581bbbb_big64" width="50" height="50" alt="">
+                            <h4 class="uk-comment-title">Author</h4>
+                            <div class="uk-comment-meta">12 days ago | Profile | #</div>
+                        </header>
+                        <div class="uk-comment-body">
+                           <p>${txt}</p>
+                        </div>
+                        <div class="x-comment-footer uk-margin-top">
+                            <a href="#" class="uk-button btn-reply"><i class="uk-icon-reply"></i> 回复</a>
+                            <a href="#" class="uk-button">赞</a>
+                        </div>
+                    </article>
+                    </li>
+                `;
+
+            var li = $(comment);
+            $(form).closest('.reply-item').find('.ul-comment-list-child').append(li);
+            return false;
+        }
+        $(document).ready(function () {
+                autosize(document.querySelector('textarea'));
+
+            //动态添加元素的事件绑定问题参考了http://blog.csdn.net/lixin2151408/article/details/71411564
+            //最后面的评论框提交
+            $('#final-reply').on('submit', 'form', function () {
+
+                alert('first')
+                var txt = $(this).find('textarea').val();
+
+                var comment = `
+                    <li class="reply-item">
+                    <article class="uk-comment">
+                        <header class="uk-comment-header">
+                            <img class="uk-comment-avatar" src="https://sfault-avatar.b0.upaiyun.com/245/908/2459088887-5a6fbf581bbbb_big64" width="50" height="50" alt="">
+                            <h4 class="uk-comment-title">Author</h4>
+                            <div class="uk-comment-meta">12 days ago | Profile | #</div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>${txt}</p>
+                        </div>
+                        <div class="x-comment-footer uk-margin-top">
+                            <a href="#" class="uk-button btn-reply"><i class="uk-icon-reply"></i> 回复</a>
+                            <a href="#" class="uk-button">赞</a>
+                        </div>
+                    </article>
+                    <ul class="ul-comment-list-child">
+
+                    </ul>
+                    </li>
+                `;
+
+                var li = $(comment);
+                $('#uk-comment-list').append(li);
+                return false;
+            })
+
+
+                $('#uk-comment-list').on('click', '.btn-reply', function () {
+                    alert('kkkkkkkk');
+                    var $div = $('#reply-anywhere');
+                    alert($div.length);
+                    if ($div.length > 0)
+                    {
+                        $('#reply-anywhere').remove();
+                    }
+
+                    var reply = `
+                                   <div class="reply" id="reply-anywhere">
+                            <form class="uk-form" action="#" method="post" onsubmit="return check_submit(this);">
+                                <div class="uk-form-row">
+                                    <textarea rows="1" placeholder="文明社会，理性评论" style="width:80%;min-height: 25px; max-height: 132px; overflow: hidden; word-wrap: break-word; height: 30px;"></textarea>
+                                    <input type="submit" class="uk-button">
+                                </div>
+                            </form>
+                        </div>`;
+                    var replynode = $(reply);
+                    $(this).closest('.reply-item').append(replynode);
+                    return false;
+                })
+
+
+            }
+        );
+    </script>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div class="uk-panel uk-panel-box">
+           <div>lfdksj;lfsdjf;lsdjfds;k</div>
+
+            <ul class="uk-comment-list" id="uk-comment-list">
+                <li class="reply-item">
+                    <article class="uk-comment">
+                        <header class="uk-comment-header">
+                            <img class="uk-comment-avatar" src="https://sfault-avatar.b0.upaiyun.com/245/908/2459088887-5a6fbf581bbbb_big64" width="50" height="50" alt="">
+                            <h4 class="uk-comment-title">Author</h4>
+                            <div class="uk-comment-meta">12 days ago | Profile | #</div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                        <div class="x-comment-footer uk-margin-top">
+                            <a href="#" class="uk-button btn-reply"><i class="uk-icon-reply"></i> 回复</a>
+                            <a href="#" class="uk-button">赞</a>
+                        </div>
+                    </article>
+                    <ul class="ul-comment-list-child">
+                        <li class="reply-child-item">
+                            <article class="uk-comment">
+                                <header class="uk-comment-header">
+                                    <img class="uk-comment-avatar" src="https://sfault-avatar.b0.upaiyun.com/245/908/2459088887-5a6fbf581bbbb_big64" width="50" height="50" alt="">
+                                    <h4 class="uk-comment-title">Author</h4>
+                                    <div class="uk-comment-meta">12 days ago | Profile | #</div>
+                                </header>
+                                <div class="uk-comment-body">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                </div>
+                                <div class="x-comment-footer uk-margin-top">
+                                    <a href="#" class="uk-button btn-reply"><i class="uk-icon-reply"></i> 回复</a>
+                                    <a href="#" class="uk-button">赞</a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="reply-child-item">
+                            <article class="uk-comment">
+                                <header class="uk-comment-header">
+                                    <img class="uk-comment-avatar" src="https://sfault-avatar.b0.upaiyun.com/245/908/2459088887-5a6fbf581bbbb_big64" width="50" height="50" alt="">
+                                    <h4 class="uk-comment-title">Author</h4>
+                                    <div class="uk-comment-meta">12 days ago | Profile | #</div>
+                                </header>
+                                <div class="uk-comment-body">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                </div>
+                                <div class="x-comment-footer uk-margin-top">
+                                    <a href="#" class="uk-button btn-reply"><i class="uk-icon-reply"></i> 回复</a>
+                                    <a href="#" class="uk-button">赞</a>
+                                </div>
+                            </article>
+                        </li>
+
+                    </ul>
+                    <!--<li class="reply">-->
+                    <!--<form class="uk-form" action="#" method="post">-->
+                    <!--<div class="uk-form-row">-->
+                    <!--<textarea rows="1" placeholder="文明社会，理性评论" style="width:80%;min-height: 25px; max-height: 132px; overflow: hidden; word-wrap: break-word; height: 30px;"></textarea>-->
+                    <!--<input type="submit" class="uk-button">-->
+                    <!--</div>-->
+                    <!--</form>-->
+                    <!--</li>-->
+                </li>
+            </ul>
+
+            <div class="reply" id="final-reply">
+                <form class="uk-form" action="#" method="post" id="reply-form">
+                    <div class="uk-form-row">
+                        <textarea rows="1" placeholder="文明社会，理性评论" style="width:80%;min-height: 25px; max-height: 132px; overflow: hidden; word-wrap: break-word; height: 30px;"></textarea>
+                        <input type="submit" class="uk-button">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

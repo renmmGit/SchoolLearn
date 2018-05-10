@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My UIKit guestbook Exer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="uikit-3.0.0-beta.16/uikit.css"/>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="uikit-3.0.0-beta.16/uikit.js"></script><!-- uikit.js一定要放在jquery.js的后面，因为其中用到了jquery -->
+        <script src="js/ajax.js"></script>
+        <script src="js/guestBook.js"></script>
+        <script src="js/creat.js"></script>
+    </head>
+    <body class="uk-container uk-width-1-2">
+        <!--导航区-->
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <span class="uk-navbar-item uk-logo" href="#">GuestBook社区</span>
+            </div>
+            <ul class="uk-subnav uk-subnav-divider uk-position-right uk-padding-small" uk-margin>
+                <li><a href="#" uk-toggle="target: #modal-center">登录</a></li><!--欢迎：登录的用户名-->
+                <li><a href="#" uk-toggle="target: #modal-center">注册</a></li><!--退出-->
+            </ul>
+        </nav>
+        <!--弹出的登录/注册框-->
+        <div id="modal-center" class="uk-modal" uk-modal="center: true">
+            <div class="uk-modal-dialog uk-text-center uk-padding-small">
+                <p>用户名：<input type="text" placeholder="请输入用户名"></p>
+                <p></p>
+                <p>密码：<input type="password" placeholder="请输入密码"></p>
+                <p><input class="uk-modal-close" type="button"/></p><!--value="登录/注册"-->
+            </div>
+        </div>
+        <!--头部-->
+        <h2 class="uk-heading-bullet uk-flex-center uk-margin-small">留言板</h2>
+        <!--写留言区-->
+        <form>
+            <fieldset class="uk-fieldset">
+                <div class="">
+                    <textarea id="write" class="uk-textarea" rows="3" placeholder="留个言吧..."></textarea>
+                    <button id="cancel-comment" class="uk-button uk-button-default uk-margin-top uk-float-right">取消</button>
+                    <input type="button" id="show-comment" class="uk-button uk-button-default uk-margin-top uk-float-right" value="发表" />
+                    <!--如果把submit改为button,则提交后页面不能自动刷新并返回正确结果，<button></button>可能就相当于type=submit的input-->
+                    <!--<button id="show-comment" class="uk-button uk-button-default uk-margin-top uk-float-right">发表</button> 用这个总是会出现status=0-->
+                </div>
+            </fieldset>
+        </form>
+        <!--已有的留言-->
+        <div id="guest-content">
+            <ul class="uk-comment-list"></ul>
+        </div>
+        <!--显示更多-->
+        <div id="showMore" class="uk-block-secondary uk-text-center"><a class="uk-link-reset">显示更多...</a></div>
+    </body>
+</html>
