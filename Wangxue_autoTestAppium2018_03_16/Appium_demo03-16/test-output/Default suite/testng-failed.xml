@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.testcase.Candle">
+        <methods>
+          <include name="switch3"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="switch2"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="beforeClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="switch4"/>
+          <include name="afterMethod"/>
+          <include name="switch1"/>
+        </methods>
+      </class> <!-- com.test.testcase.Candle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

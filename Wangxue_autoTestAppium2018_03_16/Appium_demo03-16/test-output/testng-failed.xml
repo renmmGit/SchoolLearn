@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.test.testcase.Bedlight">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="afterMethod"/>
+          <include name="a"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="b"/>
+          <include name="beforeClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="c"/>
+        </methods>
+      </class> <!-- com.test.testcase.Bedlight -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,1497 @@
+2018-01-31 19:23:57 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:120)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 19:23:57 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 19:23:58 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 19:26:50 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:120)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 19:26:50 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 19:26:51 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 19:32:19 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:120)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 19:32:19 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 19:32:20 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:07:17 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:120)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:07:17 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:07:18 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:09:53 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:120)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:09:53 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:09:54 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:12:35 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:121)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:12:35 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:12:36 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:13:14 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:121)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:13:14 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:13:15 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:18:47 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:121)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:18:47 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:18:48 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:22:40 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:121)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:22:40 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:22:41 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:25:38 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:25:38 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:25:39 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:28:20 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:28:20 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:28:21 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:29:30 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:29:30 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:29:31 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:30:31 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:30:31 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:30:32 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:36:46 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:36:46 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:36:47 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:38:30 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:38:30 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:38:31 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:42:43 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:42:43 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:42:44 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:43:28 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:43:28 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:43:29 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:48:57 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:48:57 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:48:58 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:49:22 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:49:22 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:49:23 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:50:27 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:50:27 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:50:28 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:52:02 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:52:02 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:52:03 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:52:35 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:52:35 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:52:36 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:52:56 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:52:56 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:52:57 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:54:48 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:54:48 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:54:49 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:55:05 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:55:05 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:55:06 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:55:26 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:55:26 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:55:27 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:56:41 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:56:41 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:56:42 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:57:09 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:57:09 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:57:10 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 21:59:14 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 21:59:14 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 21:59:15 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:00:12 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 22:00:12 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:00:13 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:00:50 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 22:00:50 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:00:51 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:02:23 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 22:02:23 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:02:24 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:11:46 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 22:11:46 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:11:47 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:13:58 [ERROR]-[com.dan.common.BaseTools] 获取配置文件config.properties失败
+  java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:365)
+	at com.dan.common.BaseTools.getProperties(BaseTools.java:123)
+	at com.dan.appium.ServerManager.run(ServerManager.java:44)
+	at com.dan.appium.ServerManager.start(ServerManager.java:34)
+	at com.dan.common.SuiteListener.onStart(SuiteListener.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:197)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:238)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-01-31 22:13:59 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:14:00 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:27:49 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:27:50 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:34:01 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:34:02 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:35:11 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:35:12 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:37:29 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:37:30 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:41:21 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program "node/usr/local/bin/appium": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:41:22 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-01-31 22:51:51 [ERROR]-[com.dan.appium.RunCommand] 执行命令失败
+  java.io.IOException: Cannot run program ""/usr/local/bin/node"": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.RunCommand.run(RunCommand.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+2018-01-31 22:51:52 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 17:38:31 [ERROR]-[com.dan.appium.ServerManager] [Appium]关闭Appium Server出错
+  java.io.IOException: Cannot run program "taskkill": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base/java.lang.Runtime.exec(Runtime.java:459)
+	at java.base/java.lang.Runtime.exec(Runtime.java:356)
+	at com.dan.appium.ServerManager.kill(ServerManager.java:84)
+	at com.dan.appium.ServerManager.stop(ServerManager.java:30)
+	at com.dan.common.SuiteListener.onFinish(SuiteListener.java:30)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:200)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:243)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 17 more
+2018-02-01 17:40:02 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 17:40:02 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 18:28:34 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 18:28:34 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 18:29:22 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-02-01 18:29:22 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯]的元素,根据名称查找元素
+  2018-02-01 18:29:26 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-02-01 18:32:09 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 18:32:10 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 18:33:19 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-02-01 18:33:22 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-02-01 18:34:25 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 18:34:25 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 18:35:34 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-02-01 18:35:37 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-02-01 18:41:50 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 18:41:51 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-02-01 18:42:10 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-02-01 18:42:10 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:08:08 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-03-08 19:08:08 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:08:25 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 19:08:25 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 19:08:27 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 19:10:25 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-03-08 19:10:25 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:10:55 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 19:10:55 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 19:10:56 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 19:17:51 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-03-08 19:17:51 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:18:14 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 19:18:14 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 19:18:15 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 19:19:04 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-03-08 19:19:04 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:19:21 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 19:19:21 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 19:19:22 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 19:20:47 [ERROR]-[com.dan.appium.RunCommand] [Appium]Appium存在未关闭的进程
+  2018-03-08 19:20:48 [ERROR]-[com.dan.appium.ServerManager] [Appium]启动失败...
+  2018-03-08 19:29:05 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 19:29:05 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 19:29:06 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 21:01:28 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 21:01:28 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 21:01:39 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 21:41:29 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 21:41:29 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 21:41:38 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-08 22:49:35 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-08 22:49:35 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=智睿筒灯ß]的元素,根据名称查找元素
+  2018-03-08 22:49:45 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:29:48 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:29:51 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:29:51 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:29:54 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:29:57 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:29:57 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:30:00 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:30:03 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:30:03 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:30:34 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:30:38 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:30:38 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:30:42 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:30:45 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:30:45 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:30:47 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:30:50 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:30:50 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:32:47 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:32:51 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:32:51 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:32:54 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:35:01 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:35:06 [ERROR]-[com.dan.common.Element] !!超时!! 5 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:35:06 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:35:09 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:40:03 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-14 23:40:08 [ERROR]-[com.dan.common.Element] !!超时!! 5 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-14 23:40:08 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-14 23:40:11 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:43:39 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-14 23:43:39 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-14 23:43:41 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-14 23:43:44 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-14 23:43:44 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-14 23:43:49 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-14 23:43:49 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-14 23:43:52 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:46:23 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-14 23:46:23 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-14 23:46:25 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-14 23:46:28 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-14 23:46:28 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-14 23:46:33 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-14 23:46:33 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-14 23:46:36 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:47:31 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-14 23:47:31 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-14 23:47:33 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-14 23:47:36 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-14 23:47:36 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-14 23:47:41 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-14 23:47:41 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-14 23:47:43 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-14 23:56:08 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-14 23:56:08 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-14 23:56:09 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-14 23:56:13 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-14 23:56:13 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-14 23:56:18 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-14 23:56:18 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-14 23:56:20 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-15 00:11:59 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:12:08 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-15 00:12:08 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-15 00:12:08 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-15 00:12:11 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-15 00:12:11 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-15 00:12:15 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-15 00:12:15 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-15 00:12:18 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-15 00:17:21 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:17:29 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-15 00:17:29 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-15 00:17:30 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-15 00:17:33 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-15 00:17:33 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-15 00:17:37 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-15 00:17:37 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-15 00:17:39 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-15 00:19:24 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:19:32 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-15 00:19:32 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-15 00:19:32 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-15 00:19:36 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-15 00:19:36 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-15 00:19:39 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-15 00:19:39 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-15 00:19:42 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-15 00:22:12 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:22:20 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-15 00:22:20 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-15 00:22:20 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-15 00:22:24 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [已关闭]
+  2018-03-15 00:22:24 [FATAL]-[com.test.testcase.Bedlight] 下拉关灯功能不可用
+  2018-03-15 00:22:27 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-15 00:22:27 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-15 00:22:30 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  2018-03-15 00:26:53 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:26:53 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:26:59 [ERROR]-[com.dan.common.Element] !!超时!! 5 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-15 00:26:59 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-15 00:26:59 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:00 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:01 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:02 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:02 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:03 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:04 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:04 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:05 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:05 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:06 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:06 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:07 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:07 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:08 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:09 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:09 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:10 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:11 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:11 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:12 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:12 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:13 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:13 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:14 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:15 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:15 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:16 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:17 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:17 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:17 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:18 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:18 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:19 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:19 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:20 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:21 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:21 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:22 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:22 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:22 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:23 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:23 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:24 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:24 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:27:24 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:29:04 [ERROR]-[com.dan.common.Element] !!超时!! 10 秒之后还没找到元素 [主界面]
+  2018-03-15 00:29:04 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:29:10 [ERROR]-[com.dan.common.Element] !!超时!! 5 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-15 00:29:10 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=床头灯1]的元素,根据名称查找元素
+  2018-03-15 00:29:10 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:29:12 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:29:12 [ERROR]-[com.dan.common.Element] 坐标【500,400】点击失败
+  2018-03-15 00:29:12 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=下拉控制开关灯]的元素,根据名称查找元素
+  2018-03-15 00:29:18 [ERROR]-[com.dan.common.Element] !!超时!! 5 秒之后还没找到元素 [下拉控制开关灯]
+  2018-03-15 00:29:21 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [开关]
+  2018-03-15 00:29:21 [FATAL]-[com.test.testcase.Bedlight] 初始登录界面不为开关/调色板界面
+  2018-03-15 00:29:22 [ERROR]-[com.dan.common.Element] 根据元素配置表未获取到[key=已关闭]的元素,根据名称查找元素
+  2018-03-15 00:29:27 [ERROR]-[com.dan.common.Element] !!超时!! 3 秒之后还没找到元素 [亮度]
+  2018-03-15 00:29:27 [FATAL]-[com.test.testcase.Bedlight] 下拉开灯功能不可用
+  2018-03-15 00:29:38 [ERROR]-[com.dan.common.Element] 坐标【217,861】点击失败
+  2018-03-15 00:29:38 [ERROR]-[com.dan.common.Element] 坐标【863,861】点击失败
+  2018-03-15 00:29:40 [ERROR]-[com.dan.common.Element] !!超时!! 1 秒之后还没找到元素 [主页]
+  
