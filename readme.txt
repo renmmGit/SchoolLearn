@@ -22,22 +22,21 @@ pwd
 
 （注：若显示Not a git repository (or any of the parent directories): .git说明本地版本管理仓库被删除了，需要重新初始化仓库，建立新的仓库：git init，再git pull git@github.com:perpohou/helloWorld.git即可）
 
-（3）上传文件等至git hub
-	①git add .  //（将所有文件添加到仓库,如果在当前路径下,可不加路径直接将所有文件上传;不在当前路径下,加./url）
-	②git commit -m "更新内容" 
-	③git push origin master
-
-上传指令：
-1、git init
-2、git add 文件夹名
-3、git commit -m "文件说明"
-4、git remote add origin git@github.com:renmmGit/SchoolLearn.git 
-5、git push -u origin master（如果出错就在步骤5前加一条指令：git pull --rebase origin master） 
+（3）上传指令：
+	1、git init（第一次上传使用）
+	2、git add 文件夹名（或git add .将所有文件添加到仓库,如果在当前路径下,可不加路径直接将所有文件上传;不在当前路径下,加./url）
+	3、git commit -m "文件说明"
+	4、git remote add origin git@github.com:renmmGit/SchoolLearn.git （第一次上传使用）
+	5、git push -u origin master（如果出错就在步骤5前加一条指令：git pull --rebase origin master） 
 
 （4）回退代码至为更改前的最近一版
 	git reset --hard Head
 	git reset --hard +任意更新的版本名，即可回退至该版本
+（5）删除已添加的文件
+	git rm -r --cached some-directory
+	git commit -m 'Remove the now ignored directory "some-directory"'
+	git push origin maste
 
-（5）其他指令
+（6）其他指令
 	git log --列出所有更新的版本
 
